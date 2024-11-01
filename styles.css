@@ -1,0 +1,134 @@
+/* Reset and Box Model */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Placeholder Styles */
+input::placeholder, select {
+  color: #888; /* Color of the placeholder text */
+  font-style: italic; /* Italic style */
+  opacity: 0.7; /* Opacity of the placeholder text */
+}
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f7f8fc, #e2e6f2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Container Styles */
+.container {
+  background: #ffffff;
+  padding: 20px; /* Padding for the container */
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 700px; /* Set width */
+  max-width: 90%; /* Responsive for smaller screens */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Heading Styles */
+h1 {
+  color: #4a4e69;
+  font-size: 22px; /* Title font size */
+  margin-bottom: 8px; /* Bottom margin */
+  font-weight: 700; /* Bold */
+}
+
+/* Paragraph Styles */
+p {
+  color: #5a5d6d;
+  font-size: 15px; /* Font size for paragraphs */
+  margin-bottom: 15px; /* Bottom margin */
+}
+
+/* Symptom Input Styles */
+.symptom-input {
+  margin-bottom: 10px; /* Space below each symptom input */
+  text-align: left; /* Align text to the left */
+}
+
+/* Label Styles */
+.symptom-input label {
+  display: block;
+  font-weight: 600; /* Bold labels */
+  margin-bottom: 5px; /* Space below labels */
+  font-size: 15px; /* Font size for labels */
+  color: #4a4e69; /* Label color */
+}
+
+/* Input Styles */
+.symptom-input input[type="text"], .symptom-input select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for input */
+  font-size: 15px; /* Font size for input */
+  border: 1px solid #d0d4e3; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  outline: none; /* No outline */
+}
+
+/* Focus Effect on Input */
+input[type="text"]:focus, select:focus {
+  border-color: #007BFF; /* Border color on focus */
+}
+
+/* Severity Styles */
+.severity {
+  display: flex;
+  justify-content: space-around; /* Space between severity options */
+  margin-top: 5px; /* Space above severity options */
+}
+
+/* Severity Label Styles */
+.severity label {
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 22px; /* Adjusted emoji size */
+  color: #9a9fbf; /* Color for severity labels */
+}
+
+/* Button Styles */
+button {
+  width: 100%; /* Full width for the button */
+  padding: 10px; /* Padding for the button */
+  font-size: 16px; /* Font size for the button */
+  font-weight: 600; /* Bold text for button */
+  color: white; /* Text color */
+  background: #6a11cb; /* Button background */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  margin-top: 15px; /* Space above button */
+  transition: background 0.3s, transform 0.3s; /* Transition effects */
+}
+
+/* Button Hover Effect */
+button:hover {
+  background: #5741d9; /* Darker background on hover */
+  transform: translateY(-2px); /* Slight upward movement on hover */
+}
+
+/* Result Box Styles */
+#result {
+  margin-top: 15px; /* Space above result box */
+  font-weight: bold; /* Bold text */
+  font-size: 16px; /* Font size for result */
+  color: #4a4e69; /* Color for result text */
+  background: #f5f5fb; /* Background color for result box */
+  padding: 10px; /* Padding for result box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+
+
+
+
+

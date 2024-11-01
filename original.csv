@@ -1,0 +1,6 @@
+User_ID,Username,Password,username 
+1,patient_001,password_hash1,user1
+2,patient_002,password_hash2,user2
+3,patient_003,password_hash3,user3
+4,patient_004,password_hash4,user4
+5,patient_005,password_hash5,user5
